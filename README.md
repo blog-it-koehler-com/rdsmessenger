@@ -30,3 +30,14 @@ Date      	          By	Comments
 
 .EXAMPLE
 .\rdsmessenger.ps1 -rdbroker rds02.demo01.it-koehler.com -messagetitel "admin message" -message "new message for all users from it koehler blog" [-rdsessionhost "rdsh01.demo01.it-koehler.com"] 
+
+
+
+Installing this function as module see my blogpost: 
+
+Copy the content from ZIP file to the special location on your RD Server or management server
+"C:\Program Files\WindowsPowerShell\Modules\Send-RDMessage\"
+
+Now you are able to import the module with Import-Module Send-RDMessage
+After importing you can use the CMDLET "Send-RDMessage"
+
